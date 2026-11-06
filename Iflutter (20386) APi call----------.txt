@@ -1,0 +1,16 @@
+I/flutter (20386): APi call--------------------------
+I/flutter (20386): Request : https://192.168.246.54:8080/authService/auth/signUp
+I/flutter (20386): Body : {serviceId: KAR0, usrPass: Abcd@1234}
+I/flutter (20386): Method : HttpMethod.post
+I/flutter (20386): 
+I/flutter (20386): Response : 409
+I/flutter (20386): Response Body : {"data":null,"response":{"code":6,"message":"Bad request"}}
+I/flutter (20386): 
+I/flutter (20386): Token : -
+I/flutter (20386): 
+I/flutter (20386): -------------------------------------------end api
+
+
+Database values.. you can copy paste the below in pgadmin 
+
+1793953047245	"KAR0"	3	1	1	1	"karthik"			1	0	false	"2026-11-06 13:47:27.248241"	"2026-11-06 13:47:27.248241"	"Admin_Web"			"2026-11-06"			"NODE-001"
